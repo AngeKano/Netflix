@@ -20,7 +20,11 @@ const Nav = () => {
 
   return (
     <nav
-      className={`w-full flex flex-row items-center px-10 py-5 bg-gradient-to-t from-transparent from-20% via-transparent to-black fixed top-0 left-0 z-10 transition-transform ease-in-out duration-300 ${
+      className={`w-full flex flex-row items-center px-10 py-5 ${
+        prevScrollPos < 100
+          ? "bg-gradient-to-t from-transparent from-20% via-transparent to-black"
+          : "bg-black"
+      } fixed top-0 left-0 z-10 transition-transform ease-in-out duration-300 ${
         visible ? "" : "-translate-y-full"
       }`}
     >

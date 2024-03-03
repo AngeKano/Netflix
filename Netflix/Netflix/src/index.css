@@ -5,12 +5,11 @@
 /* Width */
 ::-webkit-scrollbar {
   width: 7px;
-  background-color: "#000";
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #323232; /* Tailwind color gray-100 */
+  background: #000; /* Tailwind color gray-100 */
 }
 
 /* Handle */
