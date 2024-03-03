@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Width */
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: "#000";
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #323232; /* Tailwind color gray-100 */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #323232; /* Tailwind color gray-500 */
+  border-radius: 9999px;
+  /* Fully rounded corners */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2f2f2f00; /* Tailwind color gray-700 */
+}
