@@ -58,11 +58,17 @@ function App() {
           <span>Découvrir</span>
         </a>
       </div>
-      <section className="text-white h-screen flex flex-row items-center justify-center px-[14%] ">
-        <div></div>
-        <div>
+      <section className="text-white h-screen flex flex-row items-center justify-around px-[14%]  ">
+        <div className="relative ">
+          <img src="./src/assets/logos/NetflixLogo1.png" width="150" alt="" />
+          <a className="absolute z-1 -bottom-8 -right-24  flex flex-row gap-2 font-medium font-gotham items-center justify-center px-7 py-3 rounded-full text-black bg-white">
+            <span>Audio</span>
+            <img src="./public/svg/play.svg" alt="" />
+          </a>
+        </div>
+        <div className="max-w-96">
           <span>Modèle Economique</span>
-          <p>
+          <p className="text-justify">
             Netflix est un service de streaming vidéo par abonnement offrant une
             vaste gamme de films, séries télévisées et autres contenus originaux
             et sous licence. Son modèle économique repose sur des abonnements
@@ -70,6 +76,9 @@ function App() {
             plus de cela, Netflix génère des revenus grâce à ses productions
             originales, à la publicité et à des partenariats de contenu.
           </p>
+          <span className="flex flex-row gap-3">
+            En savoir <img src="./public/svg/right.svg" alt="" />
+          </span>
         </div>
       </section>
     </>
