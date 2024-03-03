@@ -66,7 +66,7 @@ function App() {
             <img src="./public/svg/play.svg" alt="" />
           </a>
         </div>
-        <div className="max-w-96">
+        <div className="max-w-[400px]">
           <span>Modèle Economique</span>
           <p className="text-justify">
             Netflix est un service de streaming vidéo par abonnement offrant une
