@@ -531,64 +531,63 @@ function App() {
         </div>
       </div>
     </div>
-    // <>
-    //   <Nav />
-    //   <div
-    //     className="flex flex-col items-center justify-center bg-cover bg-top bg-no-repeat relative transition-all ease h-screen
-    //       after:content-[''] after:w-full after:h-10  after:absolute after:bottom-0 after:left-0 after:bg-gradient-to-b after:from-transparent after:to-80% after:via-transparent after:to-black  after:z-10
-    //     "
-    //     style={{
-    //       backgroundImage: `url(${images[currentImage]})`,
-    //     }}
-    //   >
-    //     {/* <button
-    //       onClick={prevImage}
-    //       className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2"
-    //     >
-    //       Prev
-    //     </button>
-    //     <button
-    //       onClick={nextImage}
-    //       className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2"
-    //     >
-    //       Next
-    //     </button> */}
-    //     <img src="./src/assets/logos/NetflixLogo2.png" width={400} alt="" />
-    //     <span className="text-3xl text-white font-medium font-gotham">
-    //       Redéfinir le Divertissement à l'Ère du Numérique
-    //     </span>
-    //     <a className=" flex flex-row gap-2 font-medium font-gotham mt-10 px-7 py-3 rounded-full bg-white">
-    //       <img src="./public/svg/play.svg" alt="" />
-    //       <span>Découvrir</span>
-    //     </a>
-    //   </div>
-    //   <section className="text-white h-screen flex flex-row items-center justify-around px-[14%]  ">
-    //     <div className="relative ">
-    //       <img src="./src/assets/logos/NetflixLogo1.png" width="150" alt="" />
-    //       <a className="absolute z-1 -bottom-8 -right-24  flex flex-row gap-2 font-medium font-gotham items-center justify-center px-7 py-3 rounded-full text-black bg-white">
-    //         <span>Audio</span>
-    //         <img src="./public/svg/play.svg" alt="" />
-    //       </a>
-    //     </div>
-    //     <div className="max-w-[400px]">
-    //       <span>Modèle Economique</span>
-    //       <p className="text-justify">
-    //         Netflix est un service de streaming vidéo par abonnement offrant une
-    //         vaste gamme de films, séries télévisées et autres contenus originaux
-    //         et sous licence. Son modèle économique repose sur des abonnements
-    //         mensuels, offrant différents niveaux d'accès en fonction du prix. En
-    //         plus de cela, Netflix génère des revenus grâce à ses productions
-    //         originales, à la publicité et à des partenariats de contenu.
-    //       </p>
-    //       <span className="flex flex-row gap-3">
-    //         En savoir <img src="./public/svg/right.svg" alt="" />
-    //       </span>
-    //     </div>
-    //   </section>
-    // </>
   );
 }
 
 export default App;
 
-//
+//// <>
+//   <Nav />
+//   <div
+//     className="flex flex-col items-center justify-center bg-cover bg-top bg-no-repeat relative transition-all ease h-screen
+//       after:content-[''] after:w-full after:h-10  after:absolute after:bottom-0 after:left-0 after:bg-gradient-to-b after:from-transparent after:to-80% after:via-transparent after:to-black  after:z-10
+//     "
+//     style={{
+//       backgroundImage: `url(${images[currentImage]})`,
+//     }}
+//   >
+//     {/* <button
+//       onClick={prevImage}
+//       className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2"
+//     >
+//       Prev
+//     </button>
+//     <button
+//       onClick={nextImage}
+//       className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2"
+//     >
+//       Next
+//     </button> */}
+//     <img src="./src/assets/logos/NetflixLogo2.png" width={400} alt="" />
+//     <span className="text-3xl text-white font-medium font-gotham">
+//       Redéfinir le Divertissement à l'Ère du Numérique
+//     </span>
+//     <a className=" flex flex-row gap-2 font-medium font-gotham mt-10 px-7 py-3 rounded-full bg-white">
+//       <img src="./public/svg/play.svg" alt="" />
+//       <span>Découvrir</span>
+//     </a>
+//   </div>
+//   <section className="text-white h-screen flex flex-row items-center justify-around px-[14%]  ">
+//     <div className="relative ">
+//       <img src="./src/assets/logos/NetflixLogo1.png" width="150" alt="" />
+//       <a className="absolute z-1 -bottom-8 -right-24  flex flex-row gap-2 font-medium font-gotham items-center justify-center px-7 py-3 rounded-full text-black bg-white">
+//         <span>Audio</span>
+//         <img src="./public/svg/play.svg" alt="" />
+//       </a>
+//     </div>
+//     <div className="max-w-[400px]">
+//       <span>Modèle Economique</span>
+//       <p className="text-justify">
+//         Netflix est un service de streaming vidéo par abonnement offrant une
+//         vaste gamme de films, séries télévisées et autres contenus originaux
+//         et sous licence. Son modèle économique repose sur des abonnements
+//         mensuels, offrant différents niveaux d'accès en fonction du prix. En
+//         plus de cela, Netflix génère des revenus grâce à ses productions
+//         originales, à la publicité et à des partenariats de contenu.
+//       </p>
+//       <span className="flex flex-row gap-3">
+//         En savoir <img src="./public/svg/right.svg" alt="" />
+//       </span>
+//     </div>
+//   </section>
+// </>
