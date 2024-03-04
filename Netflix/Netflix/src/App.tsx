@@ -22,8 +22,8 @@ function App() {
       <Solution />
       <Stats />
       <Finals />
-      <div className="absolute -z-2 top-[22%] -right-[40%] w-[62rem] h-[62rem] rounded-full bg-[url('/gradient/elips2.png')] bg-cover"></div>
-      <div className="absolute -z-3 top-[55%] -left-[40%] w-[62rem] h-[62rem] rounded-full bg-[url('/gradient/elips3.png')] bg-cover"></div>
+
+      
       <div className="absolute -z-6 top-[68%] -right-[35%] w-[62rem] h-[62rem] rounded-full bg-[url('/gradient/elips5.png')] bg-cover"></div>
     </>
   );

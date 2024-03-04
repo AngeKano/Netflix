@@ -64,11 +64,12 @@ const Controverse = () => {
           En savoir
           <img
             src="/svg/right.svg"
-            className="group-hover:ml-2  transition-all ease-in duration-150 "
+            className="group-hover:ml-2 transition-all ease-in duration-150 "
             alt=""
           />
         </a>
       </div>
+      <div className="absolute -z-2 top-[57%] -left-[40%] w-[62rem] h-[62rem] rounded-full bg-[url('/gradient/elips3.png')] bg-cover"></div>
     </section>
   );
 };
