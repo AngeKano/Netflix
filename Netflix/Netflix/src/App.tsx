@@ -6,6 +6,8 @@ import Grille from "./components/Grille";
 import Controverse from "./components/Controverse";
 import Solution from "./components/Solution";
 import Banner from "./components/Banner";
+import Stats from "./components/Stats";
+import Finals from "./components/Finals";
 
 function App() {
   return (
@@ -18,12 +20,11 @@ function App() {
       <Grille />
       <Controverse />
       <Solution />
-      <div className="w-full flex flex-row items-center justify-center h-96 bg-[url('/background/imm.png')] bg-contain bg-center bg-no-repeat">
-        {" "}
-        <span className="uppercase text-white text-3xl font-bold">
-          STATISTICS ET RECORDS
-        </span>
-      </div>
+      <Stats />
+      <Finals />
+      <div className="absolute -z-2 top-[22%] -right-[40%] w-[62rem] h-[62rem] rounded-full bg-[url('/gradient/elips2.png')] bg-cover"></div>
+      <div className="absolute -z-3 top-[55%] -left-[40%] w-[62rem] h-[62rem] rounded-full bg-[url('/gradient/elips3.png')] bg-cover"></div>
+      <div className="absolute -z-6 top-[68%] -right-[35%] w-[62rem] h-[62rem] rounded-full bg-[url('/gradient/elips5.png')] bg-cover"></div>
     </>
   );
 }
