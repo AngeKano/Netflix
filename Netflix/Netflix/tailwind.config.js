@@ -10,13 +10,10 @@ export default {
     extend: {
       keyframes: {
         wiggle: {
-          "0%  100%": { transform: "rotate(30deg)", backgroundColor: "green" },
-          "20%": {
+          "0%": { transform: "rotate(30deg)" },
+          "100%": {
             transform: "rotate(20deg)",
-            backgroundImage:
-              "http://s3.amazonaws.com/massrel-viz-assets/production/15474/02.jpg?1377296589",
           },
-          "50%": { transform: "rotate(30deg)", backgroundColor: "#5DC6D4" },
         },
       },
       animation: {

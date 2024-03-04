@@ -31,25 +31,25 @@ const Nav = () => {
       <img src="./src/assets/logos/NetflixLogo1.png" width="20" alt="" />
       <div className="w-full flex flex-row items-center justify-around px-10 text-white font-gotham">
         <a
-          href="#"
+          href="#Modeleconomique"
           className="transition-all relative w-min-content before:content-[''] before:w-0 before:h-1 before:absolute before:-bottom-1.5 before:left-0 before:bg-red-600 before:transition-all before:duration-500 hover:before:w-full hover:before:left-0 hover:before:bg-red-500"
         >
           Modèle Économique
         </a>
         <a
-          href="#"
+          href="#UniversConcur"
           className="transition-all relative w-min-content before:content-[''] before:w-0 before:h-1 before:absolute before:-bottom-1.5 before:left-0 before:bg-red-600 before:transition-all before:duration-500 hover:before:w-full hover:before:left-0 hover:before:bg-red-500"
         >
           Concurrence
         </a>
         <a
-          href="#"
+          href="#Conntreverse"
           className="transition-all relative w-min-content before:content-[''] before:w-0 before:h-1 before:absolute before:-bottom-1.5 before:left-0 before:bg-red-600 before:transition-all before:duration-500 hover:before:w-full hover:before:left-0 hover:before:bg-red-500"
         >
           Controverses
         </a>
         <a
-          href="#"
+          href="#Solution"
           className="transition-all relative w-min-content before:content-[''] before:w-0 before:h-1 before:absolute before:-bottom-1.5 before:left-0 before:bg-red-600 before:transition-all before:duration-500 hover:before:w-full hover:before:left-0 hover:before:bg-red-500"
         >
           Solutions
