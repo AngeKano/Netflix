@@ -8,7 +8,7 @@ import Solution from "./components/Solution";
 import Banner from "./components/Banner";
 import Stats from "./components/Stats";
 import Finals from "./components/Finals";
-
+import { SpeedInsights } from "@vercel/speed-insights/next";
 function App() {
   return (
     <>
@@ -29,4 +29,3 @@ function App() {
 }
 
 export default App;
-  
