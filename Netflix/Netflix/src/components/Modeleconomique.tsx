@@ -30,8 +30,11 @@ const Modeleconomique = () => {
           onClick={togglePlayPause}
           className="absolute z-1 -bottom-8 -right-24  flex flex-row gap-2 font-medium font-gotham items-center justify-center px-7 py-3 rounded-full text-black bg-white"
         >
-          <span>Kano</span>
-          <img src={isPlaying ? "/svg/pause.svg" : "/svg/play.svg"} alt="" />
+          <span>Audio</span>
+          <img
+            src={isPlaying ? "/svg/pause.svg" : "/svg/play.svg"}
+            alt=""
+          />
         </button>
         {isPlaying ? (
           <button
