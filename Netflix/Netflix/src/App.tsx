@@ -8,7 +8,7 @@ import Solution from "./components/Solution";
 import Banner from "./components/Banner";
 import Stats from "./components/Stats";
 import Finals from "./components/Finals";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 function App() {
   return (
     <>
@@ -22,6 +22,7 @@ function App() {
       <Solution />
       <Stats />
       <Finals />
+      <SpeedInsights />
 
       <div className="absolute -z-6 top-[68%] -right-[35%] w-[62rem] h-[62rem] rounded-full bg-[url('/gradient/elips5.png')] bg-cover"></div>
     </>
