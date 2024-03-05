@@ -25,7 +25,7 @@ const Modeleconomique = () => {
     >
       <div className="relative ">
         <audio ref={audioRef} src="/audio/lofi.mp3"></audio>
-        <img src="./src/assets/logos/NetflixLogo1.png" width="150" alt="" />
+        <img src="./logos/NetflixLogo1.png" width="150" alt="" />
         <button
           onClick={togglePlayPause}
           className="absolute z-1 -bottom-8 -right-24  flex flex-row gap-2 font-medium font-gotham items-center justify-center px-7 py-3 rounded-full text-black bg-white"

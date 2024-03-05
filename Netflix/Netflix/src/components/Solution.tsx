@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 
 const Solution = () => {
   const [isPlaying, setIsPlaying] = useState(false);
-  const audioRef = useRef(new Audio("/audio/lofi.mp3"));
+  const audioRef = useRef(new Audio("/audio/Solution.mp3"));
 
   const togglePlayPause = () => {
     if (isPlaying) {
@@ -25,17 +25,14 @@ const Solution = () => {
       className="text-white h-screen flex flex-row items-center justify-around px-[14%]  "
     >
       <div className="relative ">
-        <audio ref={audioRef} src="/audio/lofi.mp3"></audio>
+        <audio ref={audioRef} src="/audio/Solution.mp3"></audio>
         <img src="/illust/solution.png" width="500" alt="" />
         <button
           onClick={togglePlayPause}
           className="absolute z-1 bottom-7 right-12  flex flex-row gap-2 font-medium font-gotham items-center justify-center px-7 py-3 rounded-full text-black bg-white"
         >
           <span>Audio</span>
-          <img
-            src={isPlaying ? "/svg/pause.svg" : "/svg/play.svg"}
-            alt=""
-          />
+          <img src={isPlaying ? "/svg/pause.svg" : "/svg/play.svg"} alt="" />
         </button>
         {isPlaying ? (
           <button

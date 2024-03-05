@@ -28,7 +28,9 @@ const Nav = () => {
         visible ? "" : "-translate-y-full"
       }`}
     >
-      <img src="./src/assets/logos/NetflixLogo1.png" width="20" alt="" />
+      <a href="#">
+        <img src="./logos/NetflixLogo1.png" width="20" alt="" />
+      </a>
       <div className="w-full flex flex-row items-center justify-around px-10 text-white font-gotham">
         <a
           href="#Modeleconomique"

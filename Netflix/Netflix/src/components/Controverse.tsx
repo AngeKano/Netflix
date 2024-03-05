@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 
 const Controverse = () => {
   const [isPlaying, setIsPlaying] = useState(false);
-  const audioRef = useRef(new Audio("/audio/lofi.mp3"));
+  const audioRef = useRef(new Audio("/audio/Controverse.mp3"));
 
   const togglePlayPause = () => {
     if (isPlaying) {
@@ -28,7 +28,7 @@ const Controverse = () => {
       </span>
 
       <div className="relative mb-14 ">
-        <audio ref={audioRef} src="/audio/lofi.mp3"></audio>
+        <audio ref={audioRef} src="/audio/Controverse.mp3"></audio>
         <img src="/illust/discuss.png" width="400" alt="" />
         <button
           onClick={togglePlayPause}
