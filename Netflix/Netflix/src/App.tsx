@@ -23,7 +23,6 @@ function App() {
       <Stats />
       <Finals />
       <SpeedInsights />
-
       <div className="absolute -z-6 top-[68%] -right-[35%] w-[62rem] h-[62rem] rounded-full bg-[url('/gradient/elips5.png')] bg-cover"></div>
     </>
   );
