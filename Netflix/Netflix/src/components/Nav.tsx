@@ -29,7 +29,7 @@ const Nav = () => {
       }`}
     >
       <a href="#">
-        <img src="./logos/NetflixLogo1.png" width="20" alt="" />
+        <img src="./logos/NetflixLogo1.webp" width="20" alt="" />
       </a>
       <div className="w-full flex flex-row items-center justify-around px-10 text-white font-gotham">
         <a

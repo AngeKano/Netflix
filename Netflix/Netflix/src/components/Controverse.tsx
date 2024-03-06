@@ -29,7 +29,7 @@ const Controverse = () => {
 
       <div className="relative mb-14 ">
         <audio ref={audioRef} src="/audio/Controverse.mp3"></audio>
-        <img src="/illust/discuss.png" width="400" alt="" />
+        <img src="/illust/discuss.webp" width="400" alt="" />
         <button
           onClick={togglePlayPause}
           className="absolute z-1 -top-0 -right-44  flex flex-row gap-2 font-medium font-gotham items-center justify-center px-7 py-3 rounded-full text-black bg-white"
@@ -69,7 +69,7 @@ const Controverse = () => {
           />
         </a>
       </div>
-      <div className="absolute -z-2 top-[57%] -left-[40%] w-[62rem] h-[62rem] rounded-full bg-[url('/gradient/elips3.png')] bg-cover"></div>
+      <div className="absolute -z-2 top-[57%] -left-[40%] w-[62rem] h-[62rem] rounded-full bg-[url('/gradient/elips3.webp')] bg-cover"></div>
     </section>
   );
 };

@@ -1,7 +1,7 @@
 const Stats = () => {
   return (
     <section id="Stats">
-      <div className="w-full flex flex-row items-center justify-center h-96 bg-[url('/background/imm.png')] bg-contain bg-center bg-no-repeat">
+      <div className="w-full flex flex-row items-center justify-center h-96 bg-[url('/background/imm.webp')] bg-contain bg-center bg-no-repeat">
         <span className="uppercase text-white text-3xl font-bold">
           STATISTICS ET RECORDS
         </span>

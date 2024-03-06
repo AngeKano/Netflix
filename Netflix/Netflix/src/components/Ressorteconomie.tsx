@@ -47,7 +47,7 @@ const Ressorteconomie = () => {
       </div>
       <div className="relative ">
         <audio ref={audioRef} src="/audio/lofi.mp3"></audio>
-        <img src="/illust/netflix.png" width="200" alt="" />
+        <img src="/illust/netflix.webp" width="200" alt="" />
         <button
           onClick={togglePlayPause}
           className="absolute z-1 -bottom-7 -left-24  flex flex-row gap-2 font-medium font-gotham items-center justify-center px-7 py-3 rounded-full text-black bg-white"

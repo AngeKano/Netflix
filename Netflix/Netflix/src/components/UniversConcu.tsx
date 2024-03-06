@@ -23,7 +23,7 @@ const UniversConcu = () => {
       id="UniversConcur"
       className="text-white py-44 flex flex-col items-center justify-around px-[14%]  "
     >
-      <div className="absolute -z-2 top-[22%] -right-[40%] w-[62rem] h-[62rem] rounded-full bg-[url('/gradient/elips2.png')] bg-cover"></div>
+      <div className="absolute -z-2 top-[22%] -right-[40%] w-[62rem] h-[62rem] rounded-full bg-[url('/gradient/elips2.webp')] bg-cover"></div>
       <div className=" flex flex-col  gap-y-5">
         <span className="uppercase font-bold text-2xl font-gotham">
           Univers Concurrentiel
@@ -47,7 +47,7 @@ const UniversConcu = () => {
       </div>
       <div className="relative ">
         <audio ref={audioRef} src="/audio/Universconcurrentiel.mp3"></audio>
-        <img src="/illust/class.png" width="700" alt="" />
+        <img src="/illust/class.webp" width="700" alt="" />
         <button
           onClick={togglePlayPause}
           className="absolute z-1 -top-0 -right-44  flex flex-row gap-2 font-medium font-gotham items-center justify-center px-7 py-3 rounded-full text-black bg-white"

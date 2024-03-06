@@ -47,7 +47,7 @@ const Banner = () => {
       }}
     >
       <audio ref={audioRef} src="/audio/Finals.mp3"></audio>
-      <img src="./logos/NetflixLogo2.png" width={400} alt="" />
+      <img src="./logos/NetflixLogo2.webp" width={400} alt="" />
       <span className="text-3xl text-white font-medium font-gotham">
         Redéfinir le Divertissement à l'Ère du Numérique
       </span>

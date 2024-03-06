@@ -26,7 +26,7 @@ const Solution = () => {
     >
       <div className="relative ">
         <audio ref={audioRef} src="/audio/Solution.mp3"></audio>
-        <img src="/illust/solution.png" width="500" alt="" />
+        <img src="/illust/solution.webp" width="500" alt="" />
         <button
           onClick={togglePlayPause}
           className="absolute z-1 bottom-7 right-12  flex flex-row gap-2 font-medium font-gotham items-center justify-center px-7 py-3 rounded-full text-black bg-white"
