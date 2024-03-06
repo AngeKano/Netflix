@@ -23,7 +23,8 @@ const UniversConcu = () => {
       id="UniversConcur"
       className="text-white py-44 flex flex-col items-center justify-around px-[14%]  "
     >
-      <div className="absolute -z-2 top-[22%] -right-[40%] w-[62rem] h-[62rem] rounded-full bg-[url('/gradient/elips2.webp')] bg-cover"></div>
+      {/* bg-[url('/gradient/elips2.webp')] */}
+      <div className="absolute -z-2 top-[22%] -right-[40%] w-[62rem] h-[62rem] rounded-full  bg-cover"></div>
       <div className=" flex flex-col  gap-y-5">
         <span className="uppercase font-bold text-2xl font-gotham">
           Univers Concurrentiel

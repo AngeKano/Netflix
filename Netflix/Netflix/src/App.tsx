@@ -24,6 +24,7 @@ function App() {
       <Finals />
       <SpeedInsights />
       <div className="absolute -z-6 top-[68%] -right-[35%] w-[62rem] h-[62rem] rounded-full bg-[url('/gradient/elips5.webp')] bg-cover"></div>
+      <p className="text-black">Ange Kano</p>
     </>
   );
 }
