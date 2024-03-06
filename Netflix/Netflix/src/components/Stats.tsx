@@ -52,7 +52,7 @@ const Stats = () => {
           </div>
         </div>
         <div className="flex flex-row items-center justify-around mt-20 w-full font-gotham">
-          <img src="/background/img8.png" width={400} alt="" />
+          <img src="/background/img8.webp" width={400} alt="" />
           <span className="text-2xl text-center text-white flex flex-col justify-end items-center gap-3 max-w-[377px]">
             <span className="text-3xl text-red-600 font-bold">
               17 milliards

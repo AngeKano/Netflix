@@ -20,9 +20,9 @@ const Banner = () => {
   }, []);
   const [currentImage, setCurrentImage] = useState(0);
   const images = [
-    "./background/img2.jpg",
-    "./background/img3.jpg",
-    "./background/img4.jpg",
+    "./background/img2.webp",
+    "./background/img3.webp",
+    "./background/img4.webp",
   ];
 
   const prevImage = () => {
